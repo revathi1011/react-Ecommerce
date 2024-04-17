@@ -1,8 +1,11 @@
 import React from 'react'
 import './item.css'
-const item = (props) => {
+
+
+const Item = (props) => {
   return (
     <div className='item'>
+
       <img src={props.image} alt="" />
       <p>{props.name}</p> 
       <div className="item-price">
@@ -17,4 +20,4 @@ const item = (props) => {
   )
 }
 
-export default item
+export default Item
